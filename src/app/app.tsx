@@ -13,9 +13,17 @@ export function App() {
   };
   const myElement = <input onChange={demoOnChange} type="text" />;
   console.log(myElement);
+  const data = [
+    { id: 1, name: 'apple' },
+    { id: 2, name: 'orange' },
+    { id: 3, name: 'blueberry' },
+    { id: 4, name: 'banana' },
+    { id: 5, name: 'kiwi' },
+  ];
+
   return (
     <>
-      <Button first="Jojo" last="joseph" enthusiasmLevel={3} />
+      {/* <Button fruits={data} /> */}
 
       <Car />
       <div>
